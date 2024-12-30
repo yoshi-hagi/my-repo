@@ -1,10 +1,10 @@
 name: Schedule
 on:
   schedule:
-    - cron: '*/3 * * * *'
+    - cron: '*/15 * * * *'
 jobs:
   run:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello, World!"
+      - run: echo "This is scheduled action."
       - uses: actions/checkout@v4
