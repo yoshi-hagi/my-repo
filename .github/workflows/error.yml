@@ -1,5 +1,5 @@
 name: Workflow error
-on;: push
+on: push
 jobs:
   run:
     run-on: ubuntu-latest
