@@ -9,5 +9,6 @@ on:
         description: Acheerful word
 jobs:
   run:
+    runs-on: ubuntu-latest
     steps:
       - run: echo "${{ inputs.greeting }}"
