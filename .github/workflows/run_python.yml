@@ -23,6 +23,6 @@ jobs:
       - name: Run scrape.py
         run: python scrape.py
 
-      # yfinace.py の実行
+      # test_yfinace.py の実行
       - name: Run test_yfinance.py
         run: python test_yfinance.py
