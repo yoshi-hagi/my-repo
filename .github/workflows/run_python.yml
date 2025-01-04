@@ -1,4 +1,4 @@
-name: Run scrape.py
+name: Run Python-Script
 
 on: push
 
@@ -22,3 +22,7 @@ jobs:
       # scrape.py の実行
       - name: Run scrape.py
         run: python scrape.py
+
+      # yfinace.py の実行
+      - name: Run yfinance.py
+        run: python yfinance.py
