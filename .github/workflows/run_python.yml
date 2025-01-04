@@ -19,10 +19,10 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      # # scrape.py の実行
-      # - name: Run scrape.py
-      #   run: python scrape.py
+      # scrape.py の実行
+      - name: Run scrape.py
+        run: python scrape.py
 
       # yfinace.py の実行
-      - name: Run yfinance.py
-        run: python yfinance.py
+      - name: Run test_yfinance.py
+        run: python test_yfinance.py
