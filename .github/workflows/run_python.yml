@@ -17,7 +17,7 @@ jobs:
 
       # requests のインストール
       - name: Install dependencies
-        run: pip install requests
+        run: pip install -r requirements.txt
 
       # scrape.py の実行
       - name: Run scrape.py
